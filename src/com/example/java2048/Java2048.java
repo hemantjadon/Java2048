@@ -116,8 +116,8 @@ public class Java2048 extends JPanel {
         List<Tile> list = availableSpace();
         if (!availableSpace().isEmpty()) {
             int index = (int) (Math.random() * list.size()) % list.size();
-            Tile emptyTime = list.get(index);
-            emptyTime.value = Math.random() < 0.9 ? 2 : 4;
+            Tile emptyTile = list.get(index);
+            emptyTile.value = Math.random() < 0.9 ? 2 : 4;
         }
     }
 

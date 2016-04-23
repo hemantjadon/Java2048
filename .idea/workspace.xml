@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2b78cac-4c7a-4a7a-8634-6ae98d733833" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/java2048/Java2048.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/java2048/NewJava2048.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix-core.coffee.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix.coffee.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix.scss.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/attach.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/block_level_decrease.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/block_level_increase.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/bullets.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/code.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/link.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/numbers.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/quote.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/redo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/strike.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/trash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/images/undo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/stylesheets/attachments.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/stylesheets/content.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/stylesheets/editor.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/stylesheets/icons.scss.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../assets/trix/stylesheets/toolbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bin/blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bin/ci" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bin/rackup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bin/rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bin/release" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bin/update-status-image" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dist/trix-core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dist/trix.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../dist/trix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../polyfills/polyfills.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../polyfills/set.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../polyfills/vendor/CustomElements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../polyfills/vendor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../polyfills/vendor/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/BANNER.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/block_attributes.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/css.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/file_size_formatting.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/lang.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/selection_elements.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/serialization.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/text_attributes.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/toolbar.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/config/undo_interval.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/controllers/attachment_editor_controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/controllers/composition_controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/controllers/controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/controllers/editor_controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/controllers/input_controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/controllers/toolbar_controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/basic_object.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/collections/element_store.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/collections/hash.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/collections/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/collections/object_group.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/collections/object_map.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/collections.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/custom_elements.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/dom.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/extend.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/functions.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/global.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/objects.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/ranges.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/selection.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/helpers/strings.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/object.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/utilities/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/utilities/operation.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/core/utilities/utf16_string.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/elements/trix_editor_element.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/elements/trix_toolbar_element.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/index.coffee.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/debugger.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/element.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/logger.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/templates/debug.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/templates/document.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/templates/loggers.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/templates/render.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/templates/selection.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/templates/undo.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/views/debug_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/views/document_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/views/logger_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/views/render_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/views/selection_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/views/undo_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/deserializer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/player.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/player_controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/player_element.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/player_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/recorder.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/recording.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/inspector/watchdog/serializer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/attachment.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/attachment_manager.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/attachment_piece.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/block.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/composition.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/document.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/editor.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/html_parser.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/location_mapper.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/managed_attachment.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/piece.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/point_mapper.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/selection_manager.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/splittable_list.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/string_piece.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/text.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/models/undo_manager.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/observers/mutation_observer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/observers/selection_change_observer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/operations/file_verification_operation.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/operations/image_preload_operation.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/attachment_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/block_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/document_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/object_group_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/object_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/piece_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/previewable_attachment_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/trix/views/text_view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/attachment_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/basic_input_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/block_formatting_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/caching_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/composition_input_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/cursor_movement_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/custom_element_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/html_loading_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/html_replacement_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/installation_process_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/list_formatting_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/pasting_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/text_formatting_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/system/undo_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/assertions.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/editor_helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_empty.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_html.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_with_block_styles.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_with_bold_styles.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_with_image.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_with_styled_content.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/editor_with_toolbar_and_input.jst.eco" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/fixtures.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/fixtures/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/input_helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/selection_helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/test_helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/test_stubs.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/test_helpers/toolbar_helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/attachment_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/block_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/composition_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/document_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/document_view_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/html_parser_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/location_mapper_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/serialization_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/src/unit/string_change_summary_test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/vendor/rangy-core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../test/vendor/rangy-textrange.js" afterPath="" />
+    </list>
+    <ignored path="Java2048.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Java2048" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Java2048.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/java2048/Java2048.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2815#2816#0" expanded="true" />
+                <element signature="e#2856#2857#0" expanded="true" />
+                <element signature="e#3259#3265#0" expanded="true" />
+                <element signature="e#3445#3446#0" expanded="true" />
+                <element signature="e#3496#3497#0" expanded="true" />
+                <element signature="e#5104#5110#0" expanded="true" />
+                <element signature="e#5626#5632#0" expanded="true" />
+                <element signature="e#6643#6644#0" expanded="true" />
+                <element signature="e#6705#6706#0" expanded="true" />
+                <element signature="e#9031#9032#0" expanded="true" />
+                <element signature="e#9101#9102#0" expanded="true" />
+                <element signature="e#9170#9171#0" expanded="true" />
+                <element signature="e#9201#9202#0" expanded="true" />
+                <element signature="e#9233#9234#0" expanded="true" />
+                <element signature="e#9268#9269#0" expanded="true" />
+                <element signature="e#9304#9305#0" expanded="true" />
+                <element signature="e#9345#9346#0" expanded="true" />
+                <element signature="e#9385#9386#0" expanded="true" />
+                <element signature="e#9471#9472#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewJava2048.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/java2048/NewJava2048.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Java2048.java" />
+        <option value="$PROJECT_DIR$/src/com/example/java2048/Java2048.java" />
+        <option value="$PROJECT_DIR$/src/com/example/java2048/NewJava2048.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java2048" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java2048" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java2048" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java2048" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java2048" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2048" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="setFocusable&#9;PSI&#9;JAVA://java.awt.Component#setFocusable&#10;tileAt&#9;PSI&#9;JAVA://com.example.java2048.Java2048#tileAt&#10;Jframe&#9;PSI&#9;JAVA://javax.swing.JFrame&#10;Tile&#9;PSI&#9;JAVA://com.example.java2048.Java2048.Tile" />
+  </component>
+  <component name="RunManager" selected="Application.Java2048">
+    <configuration default="false" name="Java2048" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.java2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.java2048.Java2048" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java2048" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java2048" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Java2048" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Java2048" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2b78cac-4c7a-4a7a-8634-6ae98d733833" name="Default" comment="" />
+      <created>1461344214047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1461344214047</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Java2048.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="7126" column="16" selection-start-line="7126" selection-start-column="16" selection-end-line="7126" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/java2048/NewJava2048.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/java2048/Java2048.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#3259#3265#0" expanded="true" />
+            <element signature="e#3445#3446#0" expanded="true" />
+            <element signature="e#3496#3497#0" expanded="true" />
+            <element signature="e#5104#5110#0" expanded="true" />
+            <element signature="e#5626#5632#0" expanded="true" />
+            <element signature="e#6643#6644#0" expanded="true" />
+            <element signature="e#6705#6706#0" expanded="true" />
+            <element signature="e#9031#9032#0" expanded="true" />
+            <element signature="e#9101#9102#0" expanded="true" />
+            <element signature="e#9170#9171#0" expanded="true" />
+            <element signature="e#9201#9202#0" expanded="true" />
+            <element signature="e#9233#9234#0" expanded="true" />
+            <element signature="e#9268#9269#0" expanded="true" />
+            <element signature="e#9304#9305#0" expanded="true" />
+            <element signature="e#9345#9346#0" expanded="true" />
+            <element signature="e#9385#9386#0" expanded="true" />
+            <element signature="e#9471#9472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

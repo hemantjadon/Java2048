@@ -18,9 +18,10 @@ public class NewJava2048 extends JPanel {
     private static final int TILES_MARGIN = 16;
 
     private Tile[][] Tiles;
-    boolean win = false;
-    boolean lose = false;
-    int score = 0;
+    private boolean win = false;
+    private boolean lose = false;
+    private int score = 0;
+    private int TARGET = 2048;
 
     //Constructor
     public NewJava2048() {
@@ -34,6 +35,13 @@ public class NewJava2048 extends JPanel {
                 }
 
                 if (!win && !lose) {
+                    int[][] orignalTiles = new int[4][4];
+                    for (int i=0 ; i<4 ; i++){
+                        for (int j=0 ; j<4 ; j++){
+                            orignalTiles[i][j] = Tiles[i][j].value;
+                        }
+                    }
+
                     switch (e.getKeyCode()) {
                         case KeyEvent.VK_LEFT:
                             moveLeft();
@@ -48,11 +56,22 @@ public class NewJava2048 extends JPanel {
                             moveUp();
                             break;
                     }
+
+                    int[][] newTiles = new int[4][4];
+                    for (int i=0 ; i<4 ; i++){
+                        for (int j=0 ; j<4 ; j++){
+                            newTiles[i][j] = Tiles[i][j].value;
+                        }
+                    }
+
+                    if (!compare(orignalTiles,newTiles)){
+                        addTile();
+                    }
                 }
 
-//                if (!win && true) {
-//                    lose = true;
-//                }
+                if (!win && !canMove()) {
+                    lose = true;
+                }
 
                 repaint();
             }
@@ -60,74 +79,6 @@ public class NewJava2048 extends JPanel {
 
         this.resetGame();
     }
-
-    private void moveDown(){
-        Tile[] list = new Tile[4];
-        for(int i=0 ; i<4 ; i++){
-            for (int j=0 ; j<4 ; j++){
-                list[j] = Tiles[i][j];
-            }
-            collapse(list);
-        }
-        addTile();
-    }
-    private void moveUp(){
-        Tile[] list = new Tile[4];
-        for(int i=0 ; i<4 ; i++){
-            for (int j=3,p=0 ; j>=0 ; j--,p++){
-                list[p] = Tiles[i][j];
-            }
-            collapse(list);
-        }
-        addTile();
-    }
-
-    private void moveLeft(){
-        Tile[] list = new Tile[4];
-        for(int i=0 ; i<4 ; i++){
-            for (int j=3,p=0 ; j>=0 ; j--,p++){
-                list[p] = Tiles[j][i];
-            }
-            collapse(list);
-        }
-        addTile();
-    }
-    private void moveRight(){
-        Tile[] list = new Tile[4];
-        for(int i=0 ; i<4 ; i++){
-            for (int j=0 ; j<4 ; j++){
-                list[j] = Tiles[j][i];
-            }
-            collapse(list);
-        }
-        addTile();
-    }
-
-
-    private void collapse(Tile[] list){
-        Stack<Integer> st = new  Stack<Integer>();
-        for (int i=0 ; i<4 ; i++){
-            if(!list[i].isEmpty()) {
-                st.push(new Integer(list[i].value));
-                list[i].value = 0;
-            }
-        }
-        int index = 3;
-        while (!st.isEmpty()){
-            int num = st.pop();
-            if(list[index].value == 0){
-                list[index].value = num;
-            }
-            else if (list[index].value == num) {
-                list[index].value *= 2;
-            }
-            else {
-                index--;
-                list[index].value = num;
-            }
-        }
-    }
-
 
     public void resetGame(){
         win = false;
@@ -144,6 +95,105 @@ public class NewJava2048 extends JPanel {
 
         addTile();
         addTile();
+    }
+
+    private void moveDown(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=0 ; j<4 ; j++){
+                list[j] = Tiles[i][j];
+            }
+            collapse(list);
+        }
+    }
+
+    private void moveUp(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=3,p=0 ; j>=0 ; j--,p++){
+                list[p] = Tiles[i][j];
+            }
+            collapse(list);
+        }
+    }
+
+    private void moveLeft(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=3,p=0 ; j>=0 ; j--,p++){
+                list[p] = Tiles[j][i];
+            }
+            collapse(list);
+        }
+    }
+
+    private void moveRight(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=0 ; j<4 ; j++){
+                list[j] = Tiles[j][i];
+            }
+            collapse(list);
+        }
+    }
+
+
+    private void collapse(Tile[] list){
+        Stack<Integer> st = new  Stack<Integer>();
+        int[]  originalLine = new int[4];
+        for (int i=0 ; i<4 ; i++){
+            if(!list[i].isEmpty()) {
+                st.push(new Integer(list[i].value));
+                originalLine[i] = list[i].value;
+                list[i].value = 0;
+            }
+        }
+        int index = 3;
+        while (!st.isEmpty()){
+            int num = st.pop();
+            if(list[index].value == 0){
+                list[index].value = num;
+            }
+            else if (list[index].value == num) {
+                list[index].value *= 2;
+                score += num*2;
+                if(list[index].value == TARGET){
+                    win = true;
+                }
+            }
+            else {
+                index--;
+                list[index].value = num;
+            }
+        }
+    }
+
+    private  boolean compare(int[][] orignalTiles , int[][] newTiles){
+        boolean flag = true;
+        for (int i=0 ; i<orignalTiles.length ; i++){
+            for (int j=0 ; j<orignalTiles.length ; j++) {
+                if (orignalTiles[i][j] != newTiles[i][j]) {
+                    flag = false;
+                }
+            }
+        }
+        return flag;
+    }
+
+    private boolean canMove() {
+        if (!isFull()) {
+            return true;
+        }
+        for (int x = 0; x < 4; x++) {
+            for (int y = 0; y < 4; y++) {
+                Tile t = Tiles[x][y];
+                if ((x < 3 && t.value == Tiles[x + 1][y].value)
+                        || ((y < 3) && t.value == Tiles[x][y + 1].value)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     private void addTile() {
@@ -171,6 +221,9 @@ public class NewJava2048 extends JPanel {
         return availableSpace().size() == 0;
     }
 
+
+
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -189,8 +242,8 @@ public class NewJava2048 extends JPanel {
         g.setRenderingHint(RenderingHints.KEY_STROKE_CONTROL, RenderingHints.VALUE_STROKE_NORMALIZE);
 
         int value = tile.getValue();
-        int xOffset = offsetCoordinatess(i);
-        int yOffset = offsetCoordinatess(j);
+        int xOffset = offsetCoordinates(i);
+        int yOffset = offsetCoordinates(j);
 
         g.setColor(tile.getBackground());
         g.fillRoundRect(xOffset, yOffset, TILE_SIZE, TILE_SIZE, 14, 14);
@@ -234,9 +287,11 @@ public class NewJava2048 extends JPanel {
         g.drawString("Score: " + score, 200, 365);
     }
 
-    private static int offsetCoordinatess(int arg){
+    private static int offsetCoordinates(int arg){
         return arg * (TILES_MARGIN + TILE_SIZE) + TILES_MARGIN;
     }
+
+
 
 
     static class Tile{
@@ -283,6 +338,7 @@ public class NewJava2048 extends JPanel {
             }
         }
     }
+
 
 
     public static void main(String[] args) {

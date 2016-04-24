@@ -29,11 +29,103 @@ public class NewJava2048 extends JPanel {
         addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
+                    resetGame();
+                }
+
+                if (!win && !lose) {
+                    switch (e.getKeyCode()) {
+                        case KeyEvent.VK_LEFT:
+                            moveLeft();
+                            break;
+                        case KeyEvent.VK_RIGHT:
+                            moveRight();
+                            break;
+                        case KeyEvent.VK_DOWN:
+                            moveDown();
+                            break;
+                        case KeyEvent.VK_UP:
+                            moveUp();
+                            break;
+                    }
+                }
+
+//                if (!win && true) {
+//                    lose = true;
+//                }
+
                 repaint();
             }
         });
 
         this.resetGame();
+    }
+
+    private void moveDown(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=0 ; j<4 ; j++){
+                list[j] = Tiles[i][j];
+            }
+            collapse(list);
+        }
+        addTile();
+    }
+    private void moveUp(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=3,p=0 ; j>=0 ; j--,p++){
+                list[p] = Tiles[i][j];
+            }
+            collapse(list);
+        }
+        addTile();
+    }
+
+    private void moveLeft(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=3,p=0 ; j>=0 ; j--,p++){
+                list[p] = Tiles[j][i];
+            }
+            collapse(list);
+        }
+        addTile();
+    }
+    private void moveRight(){
+        Tile[] list = new Tile[4];
+        for(int i=0 ; i<4 ; i++){
+            for (int j=0 ; j<4 ; j++){
+                list[j] = Tiles[j][i];
+            }
+            collapse(list);
+        }
+        addTile();
+    }
+
+
+    private void collapse(Tile[] list){
+        Stack<Integer> st = new  Stack<Integer>();
+        for (int i=0 ; i<4 ; i++){
+            if(!list[i].isEmpty()) {
+                st.push(new Integer(list[i].value));
+                list[i].value = 0;
+            }
+        }
+        int index = 3;
+        while (!st.isEmpty()){
+            int num = st.pop();
+            if(list[index].value == 0){
+                list[index].value = num;
+            }
+            else if (list[index].value == num) {
+                list[index].value *= 2;
+            }
+            else {
+                index--;
+                list[index].value = num;
+            }
+        }
     }
 
 
